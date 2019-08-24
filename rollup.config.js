@@ -12,15 +12,15 @@ const external = Object.keys(globals);
 const input = 'src/index.js';
 
 const plugins = [
-  replace({
-    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-  }),
   nodeResolve(),
   commonjs({
     exclude: 'src/**',
   }),
   babel({
     exclude: 'node_modules/**',
+  }),
+  replace({
+    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
   }),
 ];
 

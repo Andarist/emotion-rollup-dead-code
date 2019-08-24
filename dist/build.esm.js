@@ -1628,15 +1628,11 @@ var ClassNames = withEmotionCache(function (props, context) {
 }
 
 var style =
-/*#__PURE__*/
-process.env.NODE_ENV === "production" ? {
+
+ {
   name: "tokvmb",
   styles: "color:red;"
-} : {
-  name: "tokvmb",
-  styles: "color:red;",
-  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVdpQiIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBjc3MgfSBmcm9tICdAZW1vdGlvbi9jb3JlJztcblxuaWYgKFwicHJvZHVjdGlvblwiICE9PSAncHJvZHVjdGlvbicpIHtcbiAgY29uc29sZS5sb2coJ0kgc2hvdWxkIGJlIGVsaW1pbmF0ZWQnKTtcbn1cblxuaWYgKFwicHJvZHVjdGlvblwiID09PSAncHJvZHVjdGlvbicpIHtcbiAgY29uc29sZS5sb2coJ0kgc2hvdWxkIG5vdCBiZSBlbGltaW5hdGVkJyk7XG59XG5cbmNvbnN0IHN0eWxlID0gY3NzYFxuICBjb2xvcjogcmVkO1xuYDtcblxuZnVuY3Rpb24gU29tZXRoaW5nKCkge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY3NzPXtzdHlsZX0+XG4gICAgICBOb3RpY2UgdGhhdCB0aGUgYWJvdmUgc3RhdGVtZW50IFwiSSBzaG91bGQgYmUgZWxpbWluYXRlZFwiIGlzIHJlbW92ZWQsIGJ1dCBlbW90aW9uIHN0dWZmIGlzIG5vdFxuICAgICAgLSBpdCBoYXMgYm90aCBkZXYgYW5kIHByb2QgY29uZGl0aW9uYWxzIGJ1aWx0IGluXG4gICAgPC9kaXY+XG4gICk7XG59XG5cbmV4cG9ydCBkZWZhdWx0IFNvbWV0aGluZztcbiJdfQ== */"
-};
+} ;
 
 function Something() {
   return jsx("div", {
